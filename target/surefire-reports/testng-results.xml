@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mavendemo.APITest" duration-ms="80" started-at="2021-08-05T10:47:24 IST" finished-at="2021-08-05T10:47:24 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="APITest.APIlogin()[pri:0, instance:Mavendemo.APITest@14bf9759]" name="APIlogin" class="Mavendemo.APITest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Command line test" duration-ms="80" started-at="2021-08-05T10:47:24 IST" finished-at="2021-08-05T10:47:24 IST">
+      <class name="Mavendemo.APITest">
+        <test-method status="PASS" signature="APIlogin()[pri:0, instance:Mavendemo.APITest@14bf9759]" name="APIlogin" duration-ms="6" started-at="2021-08-05T10:47:24 IST" finished-at="2021-08-05T10:47:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIlogin -->
+        <test-method status="PASS" signature="APIpage()[pri:0, instance:Mavendemo.APITest@14bf9759]" name="APIpage" duration-ms="1" started-at="2021-08-05T10:47:24 IST" finished-at="2021-08-05T10:47:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIpage -->
+      </class> <!-- Mavendemo.APITest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Mavendemo.APITest -->
+</testng-results>
