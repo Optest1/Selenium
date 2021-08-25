@@ -1,0 +1,11 @@
+22:24:13.268 [main] INFO  Mavendemo.Login - Hi
+22:25:51.737 [main] INFO  config.base - Chrome Browser launched
+22:25:51.745 [main] INFO  Mavendemo.Login - Hi
+22:25:51.754 [main] INFO  Mavendemo.Login - URL launched
+22:25:51.790 [main] INFO  Mavendemo.Login - Login successful
+22:25:51.790 [main] INFO  Mavendemo.Login - Hi
+22:26:37.576 [main] INFO  config.base - Chrome Browser launched
+22:26:37.584 [main] INFO  Mavendemo.Login - Hi
+22:26:37.593 [main] INFO  Mavendemo.Login - URL launched
+22:26:37.632 [main] INFO  Mavendemo.Login - Login successful
+22:26:37.633 [main] INFO  Mavendemo.Login - Hi
