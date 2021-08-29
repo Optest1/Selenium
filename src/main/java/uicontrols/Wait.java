@@ -11,7 +11,6 @@ public class Wait {
 	public WebDriver globalWait(WebDriver driver)
 	{
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		System.out.println("Wait");
 		return driver;
 	}
 	

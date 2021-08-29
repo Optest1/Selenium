@@ -5,8 +5,11 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -45,6 +48,18 @@ public class base {
 	}
 	
 	return driver;
+	}
+	
+	public void getScreenshot(WebDriver driver,String testname) throws IOException
+	{
+		long imageName = System.currentTimeMillis();
+
+		String cwd = System.getProperty("user.dir");
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File source = ts.getScreenshotAs(OutputType.FILE);
+		String destination=cwd+"//Report//"+testname+imageName+".png";
+		FileUtils.copyFile(source, new File(destination));
+		
 	}
 
 }
